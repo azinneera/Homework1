@@ -90,7 +90,23 @@ ls command can be used with several arguments to get more information about the 
 
 ![bandit3](https://cloud.githubusercontent.com/assets/18344003/14392703/65e3517c-fde0-11e5-9eb9-6ef5abb020aa.jpg)
 
-bandit4
+## bandit4
+
+**Level Goal**
+
+Discover password for the next level stored in the only human-readable file in the directory named "inhere".
+
+**How To**
+
+List all the items in the folder and notice the file names beginning with a dash meaning that we should adjust the command. Given that there is only one human-readable file in the directory, using wildcard type in the command ***file ./* *** to identify the file with ASCII characters. This should show the only human-readable file as -file07.
+
+Read the password, terminate the SSH session and login to next level.
+
+**Learning/Conclusion**
+
+A human readable means a human can read it without the need of computer translation. Therefore, human readable content will be in ASCII or similar while non-human readable data will be in binary. To explore the type of data file command can be used with arguments. 
+
+Moreover usage of a wildcard often represented by the ‘*’, commonly referred to as ‘splat’ with commands the shell will match any character to any length. Different wildcards are used for different purposes which greatly increases the flexibility and efficiency of searches.
 
 ![bandit4](https://cloud.githubusercontent.com/assets/18344003/14378261/a6e0f08e-fd91-11e5-801c-037d08e7f093.jpg)
 
