@@ -68,7 +68,25 @@ Escape characters are powerful when programming and helpful when dealing with we
 
 ![bandit2](https://cloud.githubusercontent.com/assets/18344003/14392702/65e0927a-fde0-11e5-943f-253d687ab915.jpg)
 
-bandit3
+## bandit3
+
+**Level Goal**
+
+Discover password for the next level stored in a hidden file in a directory named "inhere".
+
+**How To**
+
+Try to list all what inhere directory holds with the ***ls*** command and it would show it as blank. Go through the manual of for ls command by typing in ***man ls*** and notice the argument ***-a*** used to list all items. Press q and exit. Then use the command with the argument to list literally all items. 
+This should show three things listed. A period, two periods and .hidden. The period denotes the current directory, two periods references the parent directory and .hidden is the hidden file containing the password for the next level.
+
+Read the file using ***cat /inhere/.hidden*** from the home directory to recover the password.
+
+Terminate the SSH session and login to next level.
+
+***Learning/Conclusion***
+
+A hidden file can be created by adding a period in at the beginning of the filename which will not be visible to a simple ***ls*** command.
+ls command can be used with several arguments to get more information about the items in a directory. The manual can and should be used in order to get a detailed description about commands and their usage.
 
 ![bandit3](https://cloud.githubusercontent.com/assets/18344003/14392703/65e3517c-fde0-11e5-9eb9-6ef5abb020aa.jpg)
 
