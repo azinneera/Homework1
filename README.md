@@ -60,7 +60,7 @@ Given that the file is in the home directory named again the command cat should 
 
 Terminate the SSH session and login to next level.
 
-***Learning/Conclusion***
+**Learning/Conclusion**
 
 When using the cat command to read the file, space character cannot be typed directly since linux uses it to separate items. From the file "spaces in this filename" only the first word, that is "spaces" will be taken as the filename. A preceding backslash is used before the space character to recognize it and read it as it is.
 
