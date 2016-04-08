@@ -9,7 +9,7 @@ The screenshots illustrate the commands used to discover the password.
 
   [1]: http://overthewire.org/wargames/bandit/
 
-# bandit0 #
+## bandit0 
 
 **Level Goal**
 
