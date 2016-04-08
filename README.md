@@ -22,6 +22,10 @@ password: bandit0
 
 Use an SSH application and SSH to bandit0@bandit.labs.overthewire.org. Then read the password from the file readme on the home directory. The password in the file is for the bandit1 user which is the user for the next level.
 
+**Learning/Conclusion**
+
+Possibilities are there to receive a few prompts regarding RSA keys, or a warning that someone may be eavesdropping on you. Research and remove keys belonging to the hostname to overcome this issue. 
+
 ![bandit0](https://cloud.githubusercontent.com/assets/18344003/14378257/a6d3323c-fd91-11e5-8dc8-b7046b2602b4.jpg)
 
 bandit1
