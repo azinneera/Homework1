@@ -1,6 +1,14 @@
 # Homework1
 OverTheWire: Wargames - Bandit
 
+
+Hints and commands given in the [OverTheWire website][1] was used as as a guide to find the password fro the next level.
+
+The screenshots illustrate the commands used to discover the password.
+
+
+  [1]: http://overthewire.org/wargames/bandit/
+
 ![bandit0](https://cloud.githubusercontent.com/assets/18344003/14378257/a6d3323c-fd91-11e5-8dc8-b7046b2602b4.jpg)
 ![bandit1](https://cloud.githubusercontent.com/assets/18344003/14378258/a6d3b52c-fd91-11e5-8d15-33cfe56877dd.jpg)
 ![bandit2](https://cloud.githubusercontent.com/assets/18344003/14378259/a6d69dfa-fd91-11e5-831c-fb2f9e82bc69.jpg)
