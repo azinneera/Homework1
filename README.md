@@ -98,7 +98,7 @@ Discover password for the next level stored in the only human-readable file in t
 
 **How To**
 
-List all the items in the folder and notice the file names beginning with a dash meaning that we should adjust the command. Given that there is only one human-readable file in the directory, using wildcard type in the command *** file ./* *** to identify the file with ASCII characters. This should show the only human-readable file as -file07.
+List all the items in the folder and notice the file names beginning with a dash meaning that we should adjust the command. Given that there is only one human-readable file in the directory, using wildcard type in the command ***file ./*/*** to identify the file with ASCII characters. This should show the only human-readable file as -file07.
 
 Read the password, terminate the SSH session and login to next level.
 
