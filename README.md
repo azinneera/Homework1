@@ -42,7 +42,7 @@ Login as *bandit1* using the password recovered from level0 and land in the home
 
 Terminate the SSH session and login to next level.
 
-***Learning/Conclusion***
+**Learning/Conclusion**
 
 The file cannot be simply read using the command ***cat -*** since ***-*** in bash is used to redirect to/from stdin or stdout, meaning that whatever is typed after the command will be read standard in and will be repeated standard out. Further researching in Bash/Linux special characters would reveal more.
 
@@ -83,7 +83,7 @@ Read the file using ***cat /inhere/.hidden*** from the home directory to recover
 
 Terminate the SSH session and login to next level.
 
-***Learning/Conclusion***
+**Learning/Conclusion**
 
 A hidden file can be created by adding a period in at the beginning of the filename which will not be visible to a simple ***ls*** command.
 ls command can be used with several arguments to get more information about the items in a directory. The manual can and should be used in order to get a detailed description about commands and their usage.
