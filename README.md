@@ -9,7 +9,17 @@ The screenshots illustrate the commands used to discover the password.
 
   [1]: http://overthewire.org/wargames/bandit/
 
-bandit0
+
+**Level Goal**
+
+Connect to the OverTheWire game server using SSH using provided credentials and discover password for Level 1.
+hostname: bandit.labs.overthewire.org
+username: bandit0
+password: bandit0
+
+**How To**
+
+Use an SSH application and SSH to bandit0@bandit.labs.overthewire.org. Then read the password from the file readme on the home directory. The password in the file is for the bandit1 user which is the user for the next level.
 
 ![bandit0](https://cloud.githubusercontent.com/assets/18344003/14378257/a6d3323c-fd91-11e5-8dc8-b7046b2602b4.jpg)
 
