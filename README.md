@@ -20,11 +20,13 @@ password: bandit0
 
 **How To**
 
-Use an SSH application and SSH to bandit0@bandit.labs.overthewire.org. Then read the password from the file readme on the home directory. The password in the file is for the bandit1 user which is the user for the next level.
+Use an SSH application and SSH to bandit0@bandit.labs.overthewire.org. Given that the file is in the home directory, use ***ls*** command to list the content of the directory.Notice the file named ***readme***, and simply read this filename to find the password for the next level using the command  ***cat readme***.
+
+Terminate the SSH session by typing ***exit*** and reconnect to the bandit game using thenew username and password for level 1.
 
 **Learning/Conclusion**
 
-Possibilities are there to receive a few prompts regarding RSA keys, or a warning that someone may be eavesdropping on you. Research and remove keys belonging to the hostname to overcome this issue. 
+Possibilities are there to receive a few prompts regarding RSA keys, or a warning that someone may be eavesdropping on you. Research and remove keys belonging to the hostname to overcome this issue. Also it covered a few basic commands.
 
 ![bandit0](https://cloud.githubusercontent.com/assets/18344003/14378257/a6d3323c-fd91-11e5-8dc8-b7046b2602b4.jpg)
 
