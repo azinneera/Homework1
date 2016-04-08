@@ -48,7 +48,23 @@ The file cannot be simply read using the command ***cat -*** since ***-*** in ba
 
 ![bandit1](https://cloud.githubusercontent.com/assets/18344003/14392701/65de29d6-fde0-11e5-90ba-23cd8dfd37a8.jpg)
 
-bandit2
+## bandit2
+
+**Level Goal**
+
+Discover password for the next level stored in a file called "spaces in this filename" located in the home directory.
+
+**How To**
+
+Given that the file is in the home directory named again the command cat should produce results. The file can is read using the command ***cat spaces\ in\ this\ filename*** in which the backslash preserves the space following it or simply type ***cat sp*** and hit *Tab* for the shell to fill the rest.
+
+Terminate the SSH session and login to next level.
+
+***Learning/Conclusion***
+
+When using the cat command to read the file, space character cannot be typed directly since linux uses it to separate items. From the file "spaces in this filename" only the first word, that is "spaces" will be taken as the filename. A preceding backslash is used before the space character to recognize it and read it as it is.
+
+Escape characters are powerful when programming and helpful when dealing with weird filenames. Additionally tab completion is extremely powerful which would reduce errors made in spelling filenames and can really be efficient for traversing through file structures.
 
 ![bandit2](https://cloud.githubusercontent.com/assets/18344003/14392702/65e0927a-fde0-11e5-943f-253d687ab915.jpg)
 
