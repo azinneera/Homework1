@@ -28,7 +28,7 @@ Terminate the SSH session by typing ***exit*** and reconnect to the bandit game 
 
 Possibilities are there to receive a few prompts regarding RSA keys, or a warning that someone may be eavesdropping on you. Research and remove keys belonging to the hostname to overcome this issue. Also it covered a few basic commands.
 
-![bandit0](https://cloud.githubusercontent.com/assets/18344003/14378257/a6d3323c-fd91-11e5-8dc8-b7046b2602b4.jpg)
+![bandit0](https://cloud.githubusercontent.com/assets/18344003/14392700/65dc9206-fde0-11e5-8bc6-76b46f53f920.jpg)
 
 ## bandit1
 
@@ -46,15 +46,15 @@ Terminate the SSH session and login to next level.
 
 The file cannot be simply read using the command ***cat -*** since ***-*** in bash is used to redirect to/from stdin or stdout, meaning that whatever is typed after the command will be read standard in and will be repeated standard out. Further researching in Bash/Linux special characters would reveal more.
 
-![bandit1](https://cloud.githubusercontent.com/assets/18344003/14378258/a6d3b52c-fd91-11e5-8d15-33cfe56877dd.jpg)
+![bandit1](https://cloud.githubusercontent.com/assets/18344003/14392701/65de29d6-fde0-11e5-90ba-23cd8dfd37a8.jpg)
 
 bandit2
 
-![bandit2](https://cloud.githubusercontent.com/assets/18344003/14378259/a6d69dfa-fd91-11e5-831c-fb2f9e82bc69.jpg)
+![bandit2](https://cloud.githubusercontent.com/assets/18344003/14392702/65e0927a-fde0-11e5-943f-253d687ab915.jpg)
 
 bandit3
 
-![bandit3](https://cloud.githubusercontent.com/assets/18344003/14378262/a6e235f2-fd91-11e5-9085-97aa8f5586ce.jpg)
+![bandit3](https://cloud.githubusercontent.com/assets/18344003/14392703/65e3517c-fde0-11e5-9eb9-6ef5abb020aa.jpg)
 
 bandit4
 
