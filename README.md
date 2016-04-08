@@ -44,7 +44,7 @@ Terminate the SSH session and login to next level.
 
 ***Learning/Conclusion***
 
-The file cannot be simply read using the command ***cat -*** since - in bash is used to redirect to/from stdin or stdout, meaning that whatever is typed after the command will be read standard in and will be repeated standard out. Further researching in Bash/Linux special characters would reveal more.
+The file cannot be simply read using the command ***cat -*** since ***-*** in bash is used to redirect to/from stdin or stdout, meaning that whatever is typed after the command will be read standard in and will be repeated standard out. Further researching in Bash/Linux special characters would reveal more.
 
 ![bandit1](https://cloud.githubusercontent.com/assets/18344003/14378258/a6d3b52c-fd91-11e5-8d15-33cfe56877dd.jpg)
 
