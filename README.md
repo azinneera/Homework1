@@ -3,6 +3,7 @@ OverTheWire: Wargames - Bandit
 
 
 Hints and commands given in the [OverTheWire website][1] was used as a guide to find the password fro the next level.
+
 The screenshots illustrate the commands used to discover the password.
 
 
