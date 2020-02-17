@@ -1,5 +1,5 @@
 # Homework1
-OverTheWire: Wargames-Bandit
+OverTheWire: Wargames - Bandit
 
 
 Hints and commands given in the [OverTheWire website][1] was used as a guide to find the password fro the next level.
